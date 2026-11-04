@@ -31,7 +31,7 @@ test:
   commands:
     - test -f $PREFIX/include/fatrop/fatrop.hpp  # [unix]
     - test -f $PREFIX/lib/libfatrop${SHLIB_EXT}  # [unix]
-    - test -f $PREFIX/lib/cmake/fatrop/fatropConfig.cmake # [unix]
+    - test -f $PREFIX/lib/cmake/fatrop/fatropConfig.cmake  # [unix]
     - if not exist %PREFIX%\\Library\\cmake\\fatropConfig.cmake exit 1  # [win]
     - if not exist %LIBRARY_INC%\\fatrop\\fatrop.h exit 1  # [win]
     - if not exist %LIBRARY_LIB%\\fatrop.lib exit 1  # [win]
