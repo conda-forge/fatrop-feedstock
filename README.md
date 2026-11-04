@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fatrop-feedstoc
 
 Home: https://github.com/meco-group/fatrop
 
-Package license: LGPL-3.0-or-later
+Package license: BSD-2-Clause AND EPL-2.0
 
 Summary: Fatrop is a nonlinear optimal control problem solver that aims to be fast, support a broad class of optimal control problems and achieve a high numerical robustness.
 
