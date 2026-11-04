@@ -6,10 +6,9 @@ cd build
 
 cmake ${CMAKE_ARGS} -GNinja .. \
       -DCMAKE_BUILD_TYPE=Release \
-      -DBUILD_TESTING:BOOL=ON \
-      -DBUILD_SHARED_LIBS:BOOL=ON \
-      -DBUILD_WITH_BLASFEO:BOOL=OFF \
-      -DMARCH_NATIVE:BOOL=OFF
+      -DBUILD_TESTS:BOOL=ON \
+      -DBUILD_EXAMPLES:BOOL=OFF \
+      -DBUILD_SHARED_LIBS:BOOL=ON
 
 cmake --build . --config Release
 cmake --build . --config Release --target install
